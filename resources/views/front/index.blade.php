@@ -103,66 +103,71 @@
         {{-- SKILLS --}}
 
         <section class="bg-black opacity-65 dark:bg-gray-900 py-20 px-6 md:px-12 lg:px-24">
-  <div class="max-w-7xl mx-auto">
-    <h2 class="text-4xl font-extrabold text-center text-gray-800 dark:text-white mb-12">
-      <span class="relative after:absolute after:left-1/2 after:bottom-0 after:w-24 after:h-1 after:bg-blue-500 after:-translate-x-1/2 after:rounded-full">
-        My Skills
-      </span>
-    </h2>
+            <div class="max-w-7xl mx-auto">
+                <h2 class="text-4xl font-extrabold text-center text-gray-800 dark:text-white mb-12">
+                    <span
+                        class="relative after:absolute after:left-1/2 after:bottom-0 after:w-24 after:h-1 after:bg-blue-500 after:-translate-x-1/2 after:rounded-full">
+                        My Skills
+                    </span>
+                </h2>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-      
-      <!-- Skill Card -->
-      <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out">
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Frontend</h3>
-        <ul class="text-gray-600 dark:text-gray-300 space-y-2 text-base">
-          <li>HTML5 & CSS3</li>
-          <li>Tailwind CSS</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>Vue.js</li>
-        </ul>
-      </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
-      <!-- Skill Card -->
-      <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out">
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Backend</h3>
-        <ul class="text-gray-600 dark:text-gray-300 space-y-2 text-base">
-          <li>PHP</li>
-          <li>Laravel</li>
-          <li>Node.js</li>
-          <li>MySQL</li>
-          <li>REST APIs</li>
-        </ul>
-      </div>
+                    <!-- Skill Card -->
+                    <div
+                        class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Frontend</h3>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2 text-base">
+                            <li>HTML5 & CSS3</li>
+                            <li>Tailwind CSS</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Vue.js</li>
+                        </ul>
+                    </div>
 
-      <!-- Skill Card -->
-      <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out">
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Tools</h3>
-        <ul class="text-gray-600 dark:text-gray-300 space-y-2 text-base">
-          <li>Git & GitHub</li>
-          <li>VS Code</li>
-          <li>Webpack / Vite</li>
-          <li>Figma</li>
-          <li>Postman</li>
-        </ul>
-      </div>
+                    <!-- Skill Card -->
+                    <div
+                        class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Backend</h3>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2 text-base">
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>Node.js</li>
+                            <li>MySQL</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </div>
 
-      <!-- Skill Card -->
-      <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out">
-        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Others</h3>
-        <ul class="text-gray-600 dark:text-gray-300 space-y-2 text-base">
-          <li>Responsive Design</li>
-          <li>SEO Optimization</li>
-          <li>Performance Tuning</li>
-          <li>Agile / Scrum</li>
-          <li>Cross-browser Testing</li>
-        </ul>
-      </div>
+                    <!-- Skill Card -->
+                    <div
+                        class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Tools</h3>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2 text-base">
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Webpack / Vite</li>
+                            <li>Figma</li>
+                            <li>Postman</li>
+                        </ul>
+                    </div>
 
-    </div>
-  </div>
-</section>
+                    <!-- Skill Card -->
+                    <div
+                        class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 shadow-sm hover:shadow-xl transform hover:-translate-y-1 transition duration-300 ease-in-out">
+                        <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Others</h3>
+                        <ul class="text-gray-600 dark:text-gray-300 space-y-2 text-base">
+                            <li>Responsive Design</li>
+                            <li>SEO Optimization</li>
+                            <li>Performance Tuning</li>
+                            <li>Agile / Scrum</li>
+                            <li>Cross-browser Testing</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
         {{-- PROJECTS --}}
         <section class="bg-gray-100 py-16 px-4 sm:px-8 lg:px-24 ">
@@ -307,5 +312,4 @@
                 </div>
             </div>
         </section>
-
     @endsection
