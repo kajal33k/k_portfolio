@@ -57,6 +57,8 @@
         <a href="/contact" class="inline-block mt-4 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition">Contact Me</a>
     </div>
 </section>
+
+
 @endsection
 
 
