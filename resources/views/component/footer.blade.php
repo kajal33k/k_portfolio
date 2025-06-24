@@ -1,9 +1,9 @@
-<footer class="bg-gray-900 text-gray-300 py-12 px-6 md:px-12 lg:px-24">
+<footer class="bg-black text-gray-300 py-12 px-6 md:px-12 lg:px-24">
     <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
 
         <!-- Logo & Bio -->
         <div>
-            <h2 class="text-2xl font-bold text-white mb-4">Kajal</h2>
+            <h2 class="text-2xl font-bold text-white mb-4">Kajal K....</h2>
             <p class="text-sm text-gray-400">
                 Passionate developer crafting responsive websites, clean UI, and scalable web apps.
             </p>
@@ -24,7 +24,7 @@
         <div>
             <h3 class="text-lg font-semibold text-white mb-3">Contact</h3>
             <ul class="space-y-2 text-sm">
-                <li>Email: <a href="mailto:your@email.com" class="text-blue-400 hover:underline">your@email.com</a></li>
+                <li>Email: <a href="mailto:your@email.com" class="text-pink-400 hover:underline">your@email.com</a></li>
                 <li>Phone: <a href="tel:+1234567890" class="hover:text-white">+1 234 567 890</a></li>
                 <li>Location: Your City, Country</li>
             </ul>
