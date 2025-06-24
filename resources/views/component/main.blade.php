@@ -11,11 +11,11 @@
 
 <body class="antialiased">
 
-    @include('front.header')
+    @include('component.header')
 
     @yield('content')
 
-    @include('front.footer')
+    @include('component.footer')
 
 
 </body>

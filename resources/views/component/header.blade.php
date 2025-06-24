@@ -8,13 +8,35 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
     .neon {
-      color: #4b0531;
-      text-shadow: 0 0 5px #eea7ef, 0 0 10px #e1b1dc;
+      color: #9132E7;
+      text-shadow: 0 0 5px #f9f9f9, 0 0 10px #ebe9ea;
     }
     .neon-hover:hover {
-      color: #45052d;
-      text-shadow: 0 0 5px #edb3e9, 0 0 10px #fcc9f3;
+      color: #9132E7;
+      text-shadow: 0 0 5px rgb(244, 243, 244), 0 0 10px #f8f6f8;
     }
+
+     .neon-hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 100%;
+    background: #7f5af0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .neon-hover:hover::after {
+    transform: scaleX(1);
+  }
+
+  .neon-hover:hover {
+    color: #7f5af0;
+    text-shadow: 0 0 5px #7f5af0, 0 0 10px #7f5af0;
+  }
   </style>
 </head>
 <body class="bg-black text-white">
@@ -26,13 +48,14 @@
       <div class="text-2xl font-bold neon">Kajal K.......</div>
 
       <!-- Desktop Menu -->
-      <div class="hidden md:flex items-center space-x-6 text-sm font-medium">
-        <a href="#" class="neon-hover text-white">Home</a>
-        <a href="#" class="neon-hover text-white">About</a>
-        <a href="#" class="neon-hover text-white">Projects</a>
-        <a href="#" class="neon-hover text-white">Contact</a>
-        <a href="#" class="neon-hover text-white">Resume</a>
-      </div>
+      <!-- Navigation Links -->
+<div class="hidden md:flex items-center space-x-6 text-sm font-medium">
+  <a href="#" class="relative text-white transition duration-300 ease-in-out neon-hover">Home</a>
+  <a href="#" class="relative text-white transition duration-300 ease-in-out neon-hover">About</a>
+  <a href="#" class="relative text-white transition duration-300 ease-in-out neon-hover">Projects</a>
+  <a href="#" class="relative text-white transition duration-300 ease-in-out neon-hover">Contact</a>
+  <a href="#" class="relative text-white transition duration-300 ease-in-out neon-hover">Resume</a>
+</div>
 
       <!-- Icons -->
       <div class="hidden md:flex gap-4 text-xl">
